@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All Tests" type="JUnit" factoryName="JUnit">
+    <module name="junit5test" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="pattern" />
+    <option name="PARAMETERS" value="" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <patterns>
+      <pattern testClass="de.danri.junit5tests.AssertionTest" />
+      <pattern testClass="de.danri.junit5tests.OtherComponentsTest" />
+      <pattern testClass="de.danri.junit5tests.ParameterizedTestTest" />
+      <pattern testClass="de.danri.junit5tests.TestFactoryTest" />
+    </patterns>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
